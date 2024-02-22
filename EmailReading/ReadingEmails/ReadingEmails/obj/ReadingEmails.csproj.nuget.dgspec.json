@@ -47,17 +47,27 @@
               "target": "Package",
               "version": "[0.102.2, )"
             },
+            "Costura.Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
             "DocumentFormat.OpenXml": {
               "target": "Package",
               "version": "[2.20.0, )"
             },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[5.43.0, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.59.0, )"
+            },
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",
               "version": "[15.0.4795.1001, )"
-            },
-            "Microsoft.Office.Interop.Outlook": {
-              "target": "Package",
-              "version": "[15.0.4797.1004, )"
             }
           },
           "imports": [
